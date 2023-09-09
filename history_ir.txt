@@ -1,0 +1,40 @@
+   0 mkdir -p /home/animals/dogs && touch /home/animals/dogs/pluto.txt
+   1 mkdir -p /home/animals/cats && touch /home/animals/cats/garfield.txt
+   2 mkdir -p /home/animals/fish && touch /home/animals/fish/nemo.txt
+   3 mkdir -p /home/planets
+   4 tree /home
+   5 mkdir -p /opt/planets && touch /opt/planets/Mercury.txt
+   6 mkdir -p /opt/planets && touch /opt/planets/Venus.txt
+   7 mkdir -p /oppt/planets && touch /opt/planets/Mars.txt
+   8 mkdir -p /opt/planets && touch /opt/planets/Jupiter.txt
+   9 tree /opt
+  10 mv /opt/planets /home/planets
+  11 tree /home
+  12 cd /tmp
+  13 touch /adam.txt
+  14 touch /eva.txt
+  15 cd /
+  16 cd ~
+  17 mkdir -p /home/humans
+  18 cp /tmp/adam.txt /home/humans
+  19 cp /tmp/adam.txt /home/humans/adam.txt
+  20 tree /home
+  21 ls /tmp
+  22 cd /tmp
+  23 ls
+  24 cd ~
+  25 cp -r /tmp/adam.txt /home/humans
+  26 mkdir -p /tmp/humans && touch /tmp/humans/adam.txt
+  27 mkdir -p /tmp/humans && touch /tmp/humans/eva.txt
+  28 tree /tmp
+  29 cp -r /tmp/humans /home/humans
+  30 tree /home
+  31 mv /home/humans/eva.txt /opt/eve.txt
+  32 mkdir -p /opt/humansnew && touch /opt/humansnew/eve.txt
+  33 mv /home/humans/eva.txt /opt/humansnew/eve.txt
+  34 tree /home
+  35 tree /opt
+  36 mv /opt/humansnew/eve.txt /home/humans
+  37 tree /home
+  38 history
+  39 history > history_ir.txt
