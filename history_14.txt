@@ -1,0 +1,9 @@
+   0 mkdir -p /home/animals /home/humans /home/planets /home/animals/dogs /home/animals/cats /home/animals/fish
+   1 touch /home/animals/dogs/pluto /home/animals/cats/garfild /home/animals/fish/nemo /opt/Mercury /opt/Venus /opt/Mars /opt/Jupiter /tmp/evA /tmp/adam
+   2 mv /opt/Mercury /opt/Venus /opt/Mars /opt/Jupiter /home/planets/
+   3 cp -r /tmp/adam /home/humans/
+   4 mv /tmp/evA /opt/eve
+   5 mv /opt/eve /home/humans/
+   6 tree /home
+   7 history
+   8 history > history_14.txt
