@@ -1,0 +1,8 @@
+   0 mkdir -p /opt/irina
+   1 nano script.sh
+   2 chmod 744 script.sh
+   3 ./script.sh
+   4 tree /opt/
+   5 history
+   6 history > 28_09_23_script.txt
+   7 history > history.txt
