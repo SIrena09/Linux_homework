@@ -1,0 +1,16 @@
+#!/bin/bash
+mkdir -p /opt/irina/test  /opt/irina/tmp
+ls -la /bin | head -10 > /opt/irina/test/output.txt
+ 
+ 
+        for i in {b..f}
+        do
+        touch /opt/irina/tmp/$i
+        done
+ 
+df -h | head -2 | tail -1 | awk '{print$5}' > /opt/irina/tmp/f
+mv /opt/irina/tmp/b  /opt/irina/
+mv /opt/irina/tmp/c  /opt/irina/
+mv /opt/irina/tmp/d  /opt/irina/
+mv /opt/irina/tmp/e  /opt/irina/
+mv /opt/irina/test/output.txt  /opt/irina/tmp/done.txt
