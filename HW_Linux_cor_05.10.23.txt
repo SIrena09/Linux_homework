@@ -1,0 +1,17 @@
+Это содержимое скрипта, который был создан на сервере командой /opt/210823_evening/irina_shamarina/taskIRINA.sh
+
+chmod 744 taskIRINA.sh
+
+cat taskIRINA.sh
+#!/bin/bash
+
+        for i in {1..10}
+        do
+        touch /opt/210823_evening/irina_shamarina/$i.20.04.23
+        done
+
+mkdir -p /opt/210823_evening/irina_shamarina/hwarchive
+tar -czf  op/210823_evening/irina_shamarina/hwarchive/archive.tar.gz  /opt/210823_evening/irina_shamarina/*.20.04.23
+mv /opt/210823_evening/irina_shamarina/hwarchive/archive.tar.gz  /opt/210823_evening/irina_shamarina/hwarchive
+
+
